@@ -1,0 +1,129 @@
+/*Font worksans*/
+@font-face {
+    font-family: "worksans";
+    src: url("../fonts/worksans.woff2") format("woff2"),
+    url("../fonts/worksans.woff") format("woff"),
+    url("../fonts/worksans.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "worksans";
+    src: url("../fonts/worksansmedium.woff2") format("woff2"),
+    url("../fonts/worksansmedium.woff") format("woff"),
+    url("../fonts/worksansmedium.ttf") format("ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "worksans";
+    src: url("../fonts/worksansbold.woff2") format("woff2"),
+    url("../fonts/worksansbold.woff") format("woff"),
+    url("../fonts/worksansbold.ttf") format("ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*Font playfairdisplay*/
+@font-face {
+    font-family: "playfairdisplay";
+    src: url("../fonts/playfairdisplaybold.woff2") format("woff2"),
+    url("../fonts/playfairdisplaybold.woff") format("woff"),
+    url("../fonts/playfairdisplaybold.ttf") format("ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "playfairdisplay";
+    src: url("../fonts/playfairdisplayitalic.woff2") format("woff2"),
+    url("../fonts/playfairdisplayitalic.woff") format("woff"),
+    url("../fonts/playfairdisplayitalic.ttf") format("ttf");
+    font-weight: 400;
+    font-style: italic;
+}
+
+/*Font icon*/
+@font-face {
+    font-family: 'fontawesome-webfont';
+    src: url('../fonts/fontawesome-webfont.eot');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/fontawesome-webfont.woff') format('woff'),
+    url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+    url('../fonts/fontawesome-webfont.svg#fontawesome-webfont') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+[class^='fa-'], [class*=' fa-']{
+    display: inline-block;
+    font-family: 'fontawesome-webfont';
+    speak: none;
+    box-sizing: border-box;
+    padding-top: 5px;
+    width: 25px;
+    height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    font-size: 1.13rem;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.fa-twitter:before{
+    content: "\f099";
+}
+.fa-facebook:before{
+    content: "\f09a";
+}
+.fa-dribbble:before{
+    content: "\f17d";
+}
+.fa-instagram:before{
+    content: "\f16d";
+}
+
+@font-face {
+    font-family: 'pe-icon-7';
+    src: url('../fonts/pe-icon-7.eot');
+    src: url('../fonts/pe-icon-7.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/pe-icon-7.woff') format('woff'),
+    url('../fonts/pe-icon-7.ttf') format('truetype'),
+    url('../fonts/pe-icon-7.svg#pe-icon-7') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+[class^='pe-7s-'], [class*=' pe-7s-']{
+    display: inline-block;
+    font-family: 'Pe-icon-7';
+    speak: none;
+    width: 49px;
+    height: 49px;
+    font-size: 3.3rem;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.pe-7s-portfolio:before {
+    content: "\e622";
+}
+.pe-7s-clock:before{
+    content: "\e66b";
+}
+.pe-7s-star:before{
+    content: "\e611";
+}
+.pe-7s-like:before{
+    content: "\e642";
+}
+.pe-7s-angle-down:before{
+    content: "\e688";
+}
